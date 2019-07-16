@@ -73,7 +73,7 @@ A hand made implementation for net raw tcp sockets with packet farmer.
             
 #Shared Example msg
 
-    public class SearchMatch : JHSMessageBase
+    public class ExampleMessage : JHSMessageBase
     {
         public uint op;
 
