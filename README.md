@@ -1,9 +1,8 @@
 # TCPNetworkProtocol
-A tcp server client implementation for C# and Unity 3d.
+A hand made implementation for net raw tcp sockets with packet farmer.
 
-===Usage===
 
-Server Side Example:
+#Server Side Example:
 
 
         static void Main(string[] args)
@@ -26,9 +25,7 @@ Server Side Example:
         }
 
 
-Client side Example:
-
-
+#Client side Example:
 
         static void Main(string[] args)
         {
@@ -74,3 +71,20 @@ Client side Example:
             
             
             
+#Shared Example msg
+
+    public class SearchMatch : JHSMessageBase
+    {
+        public uint op;
+
+        public override void Deserialize(JHSNetworkReader reader)
+        {
+         op = reader.ReadPackedUInt32();
+        }
+
+        public override void Serialize(JHSNetworkWriter writer)
+        {
+          writer.WritePackedUInt32(op);
+        }
+    }
+
