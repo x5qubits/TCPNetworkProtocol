@@ -1,0 +1,7 @@
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\bin\Debug\TEST.exe
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\bin\Debug\TEST.pdb
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\TEST\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\TEST\obj\Debug\Client.csproj.CopyComplete
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\TEST\obj\Debug\TEST.exe
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\TEST\obj\Debug\TEST.pdb
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\TEST\obj\Debug\Client.csprojAssemblyReference.cache

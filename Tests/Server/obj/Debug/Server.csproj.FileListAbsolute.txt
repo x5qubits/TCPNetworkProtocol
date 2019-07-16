@@ -1,0 +1,7 @@
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\bin\Debug\HexWarsGateWay.exe.config
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\bin\Debug\HexWarsGateWay.exe
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\bin\Debug\HexWarsGateWay.pdb
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\HexWarsGateWay\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\HexWarsGateWay\obj\Debug\Server.csproj.CopyComplete
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\HexWarsGateWay\obj\Debug\HexWarsGateWay.exe
+C:\Users\IcyTeck\Documents\Visual Studio 2017\Projects\JHSNetProtocol\HexWarsGateWay\obj\Debug\HexWarsGateWay.pdb
