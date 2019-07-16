@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B52FDAF-9CA1-4CD8-8590-B5A6BA63CF04}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JHSNetProtocol</RootNamespace>
+    <AssemblyName>JHSNetProtocol</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JHSNetProtocol\Core\JHSClient.cs" />
+    <Compile Include="JHSNetProtocol\Core\JHSConnection.cs" />
+    <Compile Include="JHSNetProtocol\Core\JHSDotNetCompatibility.cs" />
+    <Compile Include="JHSNetProtocol\Core\JHSNetworkClient.cs" />
+    <Compile Include="JHSNetProtocol\Core\JHSNetworkMessageHandlers.cs" />
+    <Compile Include="JHSNetProtocol\Core\JHSServer.cs" />
+    <Compile Include="JHSNetProtocol\Core\JHSStatisiticsManager.cs" />
+    <Compile Include="JHSNetProtocol\Core\NetConfig.cs" />
+    <Compile Include="JHSNetProtocol\Core\JHSNetworkServer.cs" />
+    <Compile Include="JHSNetProtocol\Crypto\EncDec.cs" />
+    <Compile Include="JHSNetProtocol\Enums\InternalMessages.cs" />
+    <Compile Include="JHSNetProtocol\Enums\PerStage.cs" />
+    <Compile Include="JHSNetProtocol\Interfaces\IJHSInterface.cs" />
+    <Compile Include="JHSNetProtocol\Interfaces\IJHSNetworkTransport.cs" />
+    <Compile Include="JHSNetProtocol\IO\JHSPacketFarmer.cs" />
+    <Compile Include="JHSNetProtocol\IO\JHSMessageBase.cs" />
+    <Compile Include="JHSNetProtocol\IO\JHSNetBuffer.cs" />
+    <Compile Include="JHSNetProtocol\IO\JHSNetworkMessage.cs" />
+    <Compile Include="JHSNetProtocol\IO\JHSNetworkReader.cs" />
+    <Compile Include="JHSNetProtocol\IO\JHSNetworkWriter.cs" />
+    <Compile Include="JHSNetProtocol\IO\JHSPool.cs" />
+    <Compile Include="JHSNetProtocol\Protocol\HandShakeMsg.cs" />
+    <Compile Include="JHSNetProtocol\Utils\JHSDebug.cs" />
+    <Compile Include="JHSNetProtocol\Utils\JHSTime.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
