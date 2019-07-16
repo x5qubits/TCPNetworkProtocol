@@ -1,9 +1,9 @@
-# TCPNetworkProtocol
-A hand made implementation for net raw tcp sockets with packet farmer.
+# JHS Network Protocol
+
+JHS Network Protocol is a Event Based TCP Library. It was originally made to be utilized inside Unity3d.
 
 
 #Server Side Example:
-
 
         static void Main(string[] args)
         {
